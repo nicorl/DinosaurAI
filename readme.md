@@ -96,7 +96,7 @@ De cada dinosaurio se almacena su `(Y, distCactus)` en cada posición
 2. Accede al ambiente de conda creado
 ```conda activate dinosaurai```
 
-3. Instala **requirements.txt** dentro del ambiente creado (snakeai)
+3. Instala **requirements.txt** dentro del ambiente creado (dinosaurai)
 ``` pip3 install -r requirements.txt```
 
-4. Ejecuta el fichero `main.py` desde el ambiente creado (snakeai)
+4. Ejecuta el fichero `main.py` desde el ambiente creado (dinosaurai)
