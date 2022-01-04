@@ -6,11 +6,13 @@ El juego de dinosaurio del navegador Google Chrome siendo ejecutado por una inte
 
 [Original](https://www.youtube.com/watch?v=c4CjmTxokeo&list=PL30AETbxgR-d03tf_HIr8-OA1gmClI3mE&index=1)
 
+[Video](https://youtu.be/dZQtRn1mk9Y)
+
 ## Destacables del `main.py`
 
 4 clases: Dinosaur, Obstacles, SmallCactus y LargeCactus.
 
-## En el interior de la clase `Dionsaur`
+## En el interior de la clase `Dinosaur`
 
 * `__init__(self, img)`. Se definen las características del dinosaurio.
 * `update(self)`. Actualiza posición dinosaurio
@@ -69,7 +71,7 @@ El resto de parámetros en [NEAT-Python](https://neat-python.readthedocs.io/en/l
 * `score()`. Cada vez que se llama la función, se incrementa un punto. A los 100 puntos se incrementa la velocidad del juego.
 
 * `background`
-  
+
 #### Bucle infinito de `obstacles`
 
 Para puntuar los dinosaurios conforme caen, se ejecuta `fitness -= 1` sobre la generación concreta del dinosaurio.
@@ -82,7 +84,7 @@ De cada dinosaurio se almacena su `(Y, distCactus)` en cada posición
 
 * Nueva propiedad en clase dinosaurio para hacer un rectangulo alrededor del dinosaurio de un color aleatorio.
 
-* Línea entre el dinosaurio y el cactus siguiente. `54` y `12` son valores agregados de forma manual y determinan el offset. 
+* Línea entre el dinosaurio y el cactus siguiente. `54` y `12` son valores agregados de forma manual y determinan el offset.
 
 * Dashboard para controlar la cantidad de dinosaurios de la generación actual, y el número de generación.
 
